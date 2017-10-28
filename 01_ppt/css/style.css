@@ -1,0 +1,25 @@
+/* 
+Bootstrap CSS only to create the grid structure - elements/content within the grid should be styled separately and should be separated in HTML with new tags
+*/
+
+
+body{
+    margin: 0;
+}
+
+.first{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.first{
+    background-color: #ff0000;
+}
+
+.second{
+    background-color: #000000; 
+}
+
+.blue {
+    background-color: blue;
+}

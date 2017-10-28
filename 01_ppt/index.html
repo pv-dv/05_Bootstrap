@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container first">
+        <div class="row">
+                 <!-- 
+                 col-sm-6 - works for devices with MIN-width 578
+                 col-md-4 - works for devices with MIN-width 768
+                 This is why in scaling it is firstly divided into two columns x 6 columns each (sm-6). 
+                 Below 768 - 3 columns x 4columns each (md-4).
+                 If not specified - 100% by default
+                 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="blue">
+                    <p class="text-nowrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a nam aliquam, earum praesentium maxime recusandae repellendus, animi voluptates molestiae, vero reprehenderit excepturi. Facilis tenetur reprehenderit deserunt natus, dolores consectetur.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="blue">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a nam aliquam, earum praesentium maxime recusandae repellendus, animi voluptates molestiae, vero reprehenderit excepturi. Facilis tenetur reprehenderit deserunt natus, dolores consectetur.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid second">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-center">1st level header</h1>
+                <h2 class="text-right">2nd level header</h2>
+                <h3 class="text-justify">3rd level header</h3>
+                
+                <h4 class="text-lowercase">4th level header</h4>
+                <h5 class="text-uppercase">5th level header</h5>
+                <h6 class="text-capitalize">6th level header</h6>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
